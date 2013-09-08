@@ -1,0 +1,899 @@
+﻿body {
+    font-family:Tahoma;
+    font-size:12px;
+    margin: 0px;
+    padding: 0px;
+    background-image:url(../images/background.jpg);
+    background-position:top;
+    background-repeat: repeat-x;
+}
+.baslat
+{
+    background-image: url(../images/oyunbaslat.png);
+    height: 51px;
+    width: 196px;
+    border: 0px;
+    float: right;
+    
+    
+}
+.hreview-aggregate {
+    font-size: 1px;
+}
+h1
+{
+    padding:0px;
+    margin:0px;
+    font-weight:normal;
+    font-family:Tahoma;
+    font-size:12px;
+    
+}
+.solpaylas {
+background-image: url(../images/solmenu.png);
+height: 279px;
+width: 70px;
+position: fixed;
+top: 203px;
+margin-left: -88px;
+z-index: 2;
+padding-top: 60px;
+padding-left: 15px;
+}
+.yeni
+{
+    
+float: right;
+position: absolute;
+font-size: 11px;
+background: #FFA200;
+border: 0px solid #888;
+color: #333;
+padding: 2px;
+z-index: 2;
+
+}
+.kaciklama {
+    font-family:Tahoma;
+    font-size: 13px;
+  
+}
+.flashoyun
+{
+    width: 5px;
+    margin-bottom: 10px; 
+    padding-left: 6px;
+    float:left;
+    
+}
+.oyunoynasonyorumlar
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #777676;
+    height: 30px;
+}
+.oyunoynadetaypaylas
+{
+   position: absolute;
+background-color: white;
+padding: 3px 3px 3px 3px;
+border: 1px solid gray;
+top: 464px;
+margin-left: 698px;
+width: 300px;
+height: 39px;
+
+}
+.oyunoynaavatar
+{
+    height: 65px;
+    width: 65px;
+    float: left;
+    
+}
+.yorumad
+{
+    margin-top: 10px;
+    border-bottom-color: #d0d0d0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-family: Tahoma;
+    font-size: 10px;
+    color: gray;
+    
+}
+.baslat:hover
+    {
+        
+          background-image: url(../images/oyunbaslat2.png);  
+        
+        
+    }
+.facebegen
+{
+    position:absolute;
+    width: 60px;height: 24px;
+    
+}
+  
+.menubar
+{
+    background-image:url(../images/menubar.png);
+    width:1008px;
+    height:42px;
+    
+    
+}.populer
+{
+    background-image:url(../images/populerbar.png);
+    width:1008px;
+    height:42px;
+    
+    
+}
+ .aramabar
+{
+    background-image:url(../images/aramabar.png);
+    width:1008px;
+    height:42px;
+    
+    
+}
+ .iletisimbar
+{
+    background-image:url(../images/iletisimbar.png);
+    width:1008px;
+    height:42px;
+    
+    
+}
+ .anasayfabar
+{
+    background-image:url(../images/anasayfabar.png);
+    width:1008px;
+    height:42px;
+    
+    
+}
+ .yenilerbar
+{
+    background-image:url(../images/enyenibar.png);
+    width:1008px;
+    height:42px;
+    
+    
+}
+  .kategoribar
+{
+    background-image:url(../images/kategoribar.png);
+    width:1008px;
+    height:42px;
+    
+    
+}
+h1 {
+    font-size: 14px;
+}
+h2 {
+     font-size: 12px;
+    
+}
+h3
+{
+   font-family:Tahoma;
+    font-size:12px;
+    margin: 0px;
+    padding: 0px;  
+
+}
+.oyunresmi {
+    border: 1px solid gray;
+    padding: 2px;
+    
+    float: left;
+    margin: 5px;
+    
+}
+.sonuclar {
+    margin-top: 50px;
+    
+}
+.aramasonuclar {
+    position: absolute;
+    top: 250px;
+    clear: both;
+    
+}
+.ust
+{
+    height: 120px;
+    width: 100%;
+    
+    
+}
+.reklam468 {
+    margin-top:5px;
+}
+
+a
+{
+    text-decoration: none;
+     color: gray;
+}
+    a:visited {
+        
+        color: gray;
+    }
+    a:hover {
+        
+        color: #231c1c;
+    }
+.clear {
+    clear: both;
+}
+.benzerkutu {
+    padding: 2px;
+    border:1px solid gray;
+    height: 60px;
+    width: 60px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    
+    
+}
+.kontrolet
+{
+ float: left;
+    margin-left: 5px;
+    
+}
+
+
+.icerikkismi
+{
+    background-color: White;
+   padding:3px 3px 3px 3px;
+    border: 1px solid gray;
+    width: 685px;
+     margin-left: 4px;
+     margin-top: 3px;
+     z-index:1;
+    
+    
+}
+.benzeroyunlar {
+    position: absolute;
+   background-color: White;
+   padding:3px 3px 3px 3px;
+    border: 1px solid gray;
+    top: 204px;
+    margin-left:698px;
+    width: 300px;
+    height: 250px;
+    
+    
+}
+.arabuton
+{
+    width: 30px;
+    height: 24px;
+    border: 0px;
+ background-color: transparent;
+    
+}
+.reklam300{
+position: absolute;
+background-color: white;
+padding: 3px 3px 3px 10px;
+border: 1px solid gray;
+top: 513px;
+margin-left: 698px;
+width: 293px;
+    
+    
+}
+.etiketler
+{
+    background-color: White;
+   padding:3px 3px 3px 3px;
+    border: 1px solid gray;
+    width: 994px;
+     margin-left: 4px;
+     margin-top: 4px;
+     height: 18px;
+    
+}
+.kategoriler
+{
+    width: 170px;
+     background-color:white;
+     float: left;
+     margin-left: 5px;
+
+
+}
+.ksecenekler
+{
+    background-image: url(../images/k2.png);
+    background-position: left;
+    border-bottom-color: #808080;
+    border-bottom-style: dotted;
+    font-weight: bold;
+    border-bottom-width: 1px;
+    height: 30px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 13px;
+    
+}
+.ksecenekler:hover
+{
+  background-image: url(../images/menubar2.jpg);  
+  background-repeat: repeat;
+  
+  color: white;
+}
+.oyunlardefault {
+    width:820px;
+    margin-top: 89px;
+    background-color:white;
+    margin-left: 178px;
+
+    
+    
+}
+.urlharita
+{
+    width: 995px;
+   
+    height: 20px;
+    background-color: White;
+    margin-left: 5px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 5px;
+    
+    
+}
+.ustboyutlandir
+{
+    width: 1000px;
+    
+    
+    
+}
+
+.ortaboyutlandir
+{
+    
+    width:1000px;
+  
+   
+   
+  
+}
+.altboyutlandir
+{
+    
+    width:1000px;
+}
+
+.altkisim
+{
+    bottom: 0px;
+    height: 110px;
+   
+    width: 100%;
+  
+    
+    
+}
+.detaydurum {
+    margin-left: 600px; 
+}
+.flashresim
+{
+    width: 585px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    padding: 2px;
+}
+.hitoyun
+{
+    background-image: url(../images/hitoyunoyna.jpg);
+    height: 226px;
+    width: 202px;
+    margin-left:600px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.hitoyunkutu
+{
+    width: 200px;
+    height: 22px;
+    margin-top:10px;
+    margin-left: 30px;
+
+}
+.kutuyazi
+{
+    display: block;
+float: left;
+position: absolute;
+font-size: 9px;
+background: #333;
+color: white;
+width: 145px;
+margin: 1px;
+padding: 0px;
+
+margin-top: 139px;
+z-index: 3;
+}
+.menusecenek
+{
+    display: block;
+padding: 15px 15px 13px 15px;
+color: #64103C;
+font-weight: bold;
+
+float: left;
+}
+.menusecenek:hover 
+{
+    background-image: url(../images/menuhover.png);
+    color: white;
+
+}
+.menusecenek a:hover {
+        color: white;
+}
+.aramakutusu
+{
+   border: 0px;
+   margin-top: 5px;
+   margin-left: 8px;
+   color: Gray;
+   font-family: Tahoma;
+   font-size: 10px;
+   background-color: transparent;
+   outline: none;
+   height: 30px;
+   width: 250px;
+    
+    
+}
+.ustarama
+{
+    background-image: url(../images/arama.png);
+    height: 36px;
+    width: 296px;
+
+
+    margin-left: 700px;
+    
+}
+.loginkad
+{
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 160px;
+    margin-bottom: 5px;
+     outline: none;
+    
+}
+.loginsifre
+{ margin-left: 100px;
+    width: 160px;
+    outline: none;
+    
+}
+.validler
+{
+    bottom: 5px;
+   
+    
+}
+.bmimza {
+    
+    position: absolute;
+    margin-bottom: 10px;
+}
+.oyunkutuhit {
+    font-weight: normal;
+    font-size: 11px;
+    color: gray;
+}
+.oyunkutu
+{color: black;
+text-decoration: none;
+font-weight: bold;
+display: block;
+width: 148px;
+padding: 3px 3px 10px 3px;
+border: 1px solid #A5C2E3;
+background-color: #efefef;
+border-radius: 5px;
+height: 200px; 
+margin-left: 5px;
+margin-bottom: 10px;
+float: left;
+}
+.joysitk {
+ background-image: url(../images/play.png);
+height: 23px;
+width: 150px;
+background-repeat: no-repeat;
+padding-top: 5px;
+padding-left: 28px;
+margin-top: 5px;
+}
+
+    .oyunkutu:hover
+
+    {
+        background-color:#015ebb;
+      color:white;
+     
+        
+        
+    }
+.loginloading {
+    
+    position: absolute;
+    background-color: white;
+    top: 25px;
+    height: 32px;
+    width: 55px;
+    border-color: #888;
+    border-width: 1px;
+    border-style: solid;
+}
+.ustlogin
+{
+    background-image:url(../images/ustpanel.png);
+    height:111px;
+    width:310px;
+    position: absolute;
+    margin-left:695px;
+    top:15px;
+    
+}
+.transparanbutton {
+    border: 0px;
+     background-color: transparent;
+     color: #474747;
+     font-family: Tahoma;
+     font-size: 12px;
+}
+    .transparanbutton:hover {
+        color: white;
+    }
+
+
+/*FACEBOX KUTUSU BAŞLA*/
+#facebox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+}
+
+
+#facebox .popup{
+  position:relative;
+  border:3px solid rgba(0,0,0,0);
+
+  border-radius:5px;
+ 
+  box-shadow:0 0 18px rgba(0,0,0,5);
+}
+
+#facebox .content {
+  display:table;
+  width: 370px;
+  padding: 10px;
+  background: #fff;
+ 
+  border-radius:4px;
+}
+
+#facebox .content > p:first-child{
+  margin-top:0;
+}
+#facebox .content > p:last-child{
+  margin-bottom:0;
+}
+
+#facebox .close{
+  position:absolute;
+  top:5px;
+  right:5px;
+  padding:2px;
+  background:#fff;
+}
+#facebox .close img{
+  opacity:0.3;
+}
+#facebox .close:hover img{
+  opacity:1.0;
+}
+
+#facebox .loading {
+  text-align: center;
+}
+
+#facebox .image {
+  text-align: center;
+}
+
+#facebox img {
+  border: 0;
+  margin: 0;
+}
+
+#facebox_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+
+.facebox_hide {
+  z-index:-100;
+}
+
+.facebox_overlayBG {
+  background-color: #000;
+  z-index: 99;
+}
+
+/*FACEBOX KUTUSU BİTİŞ*/
+.balon
+{position:absolute;
+ left:6px;
+ bottom: 0px;
+    
+    
+    
+}
+
+/* iletisim sayfası eklentiler*/
+
+.textbox1 {
+ 
+    
+}
+.textbox2 {
+
+}
+.textbox3 {
+ 
+}
+/*iletisim sayfaları ekletisi biitş*/
+.anasayfareklam{
+    background-image:url(../images/reklamalani.jpg);
+    background-repeat: no-repeat;
+    height: 103px;
+    width: 776px;
+    clear: both;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    
+}
+.yorumlar22{
+    float:left;
+    height: 300px;
+   border-right-color: gray;
+   border-right-style: dotted;
+    border-right-width: 1px;
+     width: 340px;
+     margin-right: 3px;
+     overflow:auto;
+     font-family: Tahoma;
+     font-size: 11px;
+     padding-left: 5px;
+    
+}
+.yorumgiris22{
+     height: 300px;
+     padding-left: 10px;
+     color:gray;
+     font-family: Tahoma;
+     font-size: 11px;
+     font-weight: bold;
+    
+    
+}
+.yorumbar {
+    
+background-image: url("http://www.oyunde.com/images/menubar.png");
+width: 99%;
+height: 30px;
+padding-top: 12px;
+padding-left: 10px;
+font-family: Tahoma;
+font-size: 14px;
+    
+    
+}
+.alt {
+    background-image: url("http://www.oyunde.com/images/footer.png");
+    height: 482px;
+    width: 100%;
+}
+
+
+/*SLİDER BAŞLA*/
+
+
+.nivoSlider {
+	position:relative;
+	margin-top:-50px;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+.theme-default #slider 
+{
+    margin-left:10px;
+    border:0px;
+height: 266px;
+margin-top: 0px;
+}
+.theme-pascal.slider-wrapper,
+.theme-orman.slider-wrapper {
+ 
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
+.theme-default .nivoSlider {
+	
+	background:#fff url(../loading.gif) no-repeat 50% 50%;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	position:absolute;
+	left:33%;
+	
+    margin-left:-40px; /* Tweak this to center bullets */
+}
+.theme-default .nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+	top:375px;
+	
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+/*SLİDER BİTİŞ*/
