@@ -11,7 +11,7 @@
 dim mysql_server,mysql_user,mysql_pass,mysql_db,baglanti,Connection_DSN
 	 mysql_server = "localhost"
      mysql_user = "oyunde"
-     mysql_pass = "873679787"
+     mysql_pass = ""
      mysql_db = "oyunde"
 
 
@@ -32,7 +32,7 @@ dim strVeri
 '--------------------------------------------------------------------------------
 '--------------------------------------------------------------------------------
 
-' fonkVeriCek(strVeri, strBaslamaEtiket, strBitisEtiket) şeklinde veri çekilebilir...
+' fonkVeriCek(strVeri, strBaslamaEtiket, strBitisEtiket) Ã¾eklinde veri Ã§ekilebilir...
 '--------------------------------------------------------------------------------
 '--------------------------------------------------------------------------------
 function fonkXmlHttp(strUrl)
@@ -91,13 +91,13 @@ temizlik=split(strveri,"<div id=""oyunAlan"">")
 'response.write(temizlik(1))
 a=5
 for i=1 to 15
-'BAŞLIK
+'BAÃLIK
 baslik22=split(temizlik(1),"alt=""")
 baslik11=split(baslik22(i),"""")
 baslik=baslik11(0)
 response.write("<br>"+baslik+"<br>")
 
-'LİNK
+'LÃNK
 
 link22=split(temizlik(1),"href=""")
 link11=split(link22(a),"""")
@@ -107,7 +107,7 @@ a=a+1
 'SAYFA 2
 icerik2=fonkXmlHttp(link)
 
-'RESİM
+'RESÃM
 
 resim44=split(icerik2,"<span class=""item"">")
 resim33=split(resim44(1),"<img src=""")
@@ -122,7 +122,7 @@ aciklama=aciklama2(0)
 response.write(aciklama)
 
 
-'2.LİNK
+'2.LÃNK
 link4=split(icerik2,"<!--categories column-->")
 link3=split(link4(1),"<a href=""")
 link2=split(link3(1),"""")
@@ -143,11 +143,11 @@ baslik11=baslik
 
 icerik=replace(baslik11," ","-")
 icerik=replace(icerik,"_","-")
-icerik=replace(icerik,"ö","o")
+icerik=replace(icerik,"Ã¶","o")
 icerik=replace(icerik,"s","s")
-icerik=replace(icerik,"ç","c")
+icerik=replace(icerik,"Ã§","c")
 icerik=replace(icerik,"g","g")
-icerik=replace(icerik,"ü","u")
+icerik=replace(icerik,"Ã¼","u")
 icerik=replace(icerik,"'","")
 icerik=replace(icerik,":","")
 icerik=replace(icerik,".","")
@@ -197,11 +197,11 @@ baslik11=baslik1
 
 icerik=replace(baslik11," ","-")
 icerik=replace(icerik,"_","-")
-icerik=replace(icerik,"ö","o")
+icerik=replace(icerik,"Ã¶","o")
 icerik=replace(icerik,"s","s")
-icerik=replace(icerik,"ç","c")
+icerik=replace(icerik,"Ã§","c")
 icerik=replace(icerik,"g","g")
-icerik=replace(icerik,"ü","u")
+icerik=replace(icerik,"Ã¼","u")
 icerik=replace(icerik,"'","")
 icerik=replace(icerik,":","")
 icerik=replace(icerik,".","")
